@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Raleway-ExtraBold"; /* Имя шрифта */
+  src: url(../fonts/Raleway-ExtraBold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Raleway-SemiBold"; /* Имя шрифта */
+  src: url(../fonts/Raleway-SemiBold.ttf); /* Путь к файлу со шрифтом */
+}
+
+* {
+  margin: 0 auto;
+}
+.wrapper {
+  width: 1400px;
+}
+.menu {
+  display: flex;
+}
+.side-bar {
+  width: 77px;
+  height: 784px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menu-icon {
+  margin-top: 45px;
+  margin-left: 10px;
+}
+.menu-icon-section{
+    cursor: pointer;
+}
+.menu-label{
+    font-family: "Raleway-ExtraBold";
+    font-size: 11px;
+    margin-top: 12px;
+    color: #bdbec0;
+}
+.content {
+  width: 1323px;
+  height: 784px;
+}
+.wrap-menu {
+  width: 100%;
+  background-image: url(../img/mountain.png);
+  height: 784px;
+}
+.header-section {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 55px;
+  margin-top: 43px;
+  width: 122px;
+  height: 54px;
+  background-image: url(../img/logo.png);
+}
+.contacts {
+  margin-right: 99px;
+  margin-top: 48px;
+  color: white;
+
+  text-align: right;
+}
+.tel {
+  line-height: 1.2;
+  font-size: 17px;
+  font-family: "Raleway-ExtraBold";
+}
+.tel-text {
+  margin-top: 13px;
+  color: #bdbec0;
+  font-size: 11px;
+  font-family: "Raleway-SemiBold";
+}
